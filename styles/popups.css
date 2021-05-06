@@ -1,0 +1,71 @@
+.popup1 {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.popup1body {
+    margin: 0 auto;
+    display: grid;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(2, 191, 177, 0.35);
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 480px;
+    height: 350px;
+    background: white;
+    padding-top: 60px;
+    transform: translate(-50%, -50%) rotateX(0deg);
+    animation-name: popup1;
+    animation-duration: 0.7s;
+    grid-template-rows: 30% 70%;
+}
+
+.close__popup1 {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#myBtn1 {
+    cursor: pointer;
+}
+
+@keyframes popup1 {
+    from {
+        opacity: 0;
+        top: 5%;
+        transform: translate(-50%, -50%) rotateX(15deg);
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%) rotateX(0deg);
+    }
+}
+
+.form1 {
+    padding: 20px;
+    color: #02bfb1;
+}
+
+.form1 #reversevowels {
+    width: 65%;
+    border: #02bfb1 solid 1px;
+    white-space: pre-line;
+}
+
+.form1 .request1 {
+    margin-top: 50px;
+    color: black;
+}
