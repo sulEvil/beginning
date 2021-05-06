@@ -3,7 +3,7 @@
 <header>
             <div class="header">
                 <h1 class="header__text">SssssS SsssssS</h1>
-                <div class="header__text__transcript">My way to the IT: projects</div>
+                <div class="header__text__transcript">Welcome</div>
                 <a href = "/" class = "backToMain">Main</a>
             </div>
         </header>

@@ -33,14 +33,15 @@
             <p>It's my first algoritm: which reverses the vowel letters</p>
                 <form method="POST" id="formx" action="javascript:void(null);" onsubmit="call()">
                     <legend>Input Your Text</legend>
-                    <label for="text">Text:</label><input id="text" name="text" value="" type="text">    
+                    <label for="texts">Text: </label><input id="texts" name="texts" value="" type="text">    
                     <input value="Send" type="submit">
                 </form>
             <div class="request1"></div>
         </div>
     </div>
-    <script type="text/javascript" src="scripts/popups.js"></script>
     <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="scripts/reverseWovels.js"></script>
+    <script type="text/javascript" src="scripts/popups.js"></script>
 </body>
 
 </html>

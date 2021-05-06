@@ -1,7 +1,7 @@
 <header>
             <div class="header">
                 <h1 class="header__text">Привет <?=$_COOKIE['user']?></h1>
-                <div class="header__text__transcript">My way to the IT: projects</div>
+                <div class="header__text__transcript">Welcome</div>
                 <a href = "index.php?page=logIn" class="logIn">logIn</a>
                 <a href = "index.php?page=signUp" class="signUp">signUp</a>
             </div>
