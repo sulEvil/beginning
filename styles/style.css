@@ -60,9 +60,56 @@ body {
 }
 
 .aside {
+    display: grid;
+    justify-items: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     background-color: #6edb6e;
+    grid-template-rows: 10% 85% 5%;
+}
+
+.infoaside {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.slider__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffce11;
+    width: 80%;
+    height: 98%;
+    overflow: hidden;
+}
+
+.slider__track {
+    width: 100%;
+    display: flex;
+    background-color: pink;
+    transition: .2s;
+}
+
+.slider__item {
+    height: 400px;
+    min-width: 100%;
+}
+
+.slider__item:nth-child(3n+1) {
+    background-color: red;
+}
+
+.slider__item:nth-child(3n+2) {
+    background-color: green;
+}
+
+.slider__item:nth-child(3n+3) {
+    background-color: blue;
 }
 
 .article {

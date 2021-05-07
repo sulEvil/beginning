@@ -30,7 +30,7 @@
     <div class="popup1" id="myPopup1">
         <div class="popup1body">
             <input type="image" class="close__popup1" src="images/close.png" alt="close">
-            <p>It's my first algoritm: which reverses the vowel letters</p>
+            <p>It's my first algoritm: which reverses the vowel letters(Only English)</p>
                 <form method="POST" id="formx" action="javascript:void(null);" onsubmit="call()">
                     <legend>Input Your Text</legend>
                     <label for="texts">Text: </label><input id="texts" name="texts" value="" type="text">    
@@ -40,8 +40,10 @@
         </div>
     </div>
     <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="scripts/reverseWovels.js"></script>
+    <script type="text/javascript" src="scripts/slider.js"></script>
     <script type="text/javascript" src="scripts/popups.js"></script>
+    <script type="text/javascript" src="scripts/reverseWovels.js"></script>
+    
 </body>
 
 </html>

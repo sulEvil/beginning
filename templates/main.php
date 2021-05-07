@@ -9,7 +9,24 @@
 <main>
 <div class="main">
                 <div class="aside">
-                    <h2>Aside</h2>
+                     <div class="infoaside">Aside</div>
+                        <div class="slider__container">
+                            <div class="slider__track">
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                                <div class="slider__item"></div>
+                            </div>
+                        </div>
+                   <div class="slider__buttons">
+                   <button class="btn-prev">Prev</button>
+                   <button class="btn-next">Next</button>
+                   </div> 
                 </div>
                 <div class="article">
                     <div class="main__article">
